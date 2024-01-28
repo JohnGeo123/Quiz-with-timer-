@@ -1,0 +1,83 @@
+body {
+    font-family: Open Sans;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+#timer {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align:start;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-display:initial;
+
+}
+
+.button {
+    border:solid;
+    border-radius:5px;
+    width: 60px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: 0 2px 0 2px;
+    text-align: center;
+    
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #2a009f;
+}
+
+button {
+    position: relative;
+    float:left;
+}
+
+.button a {
+    text-decoration:double;
+    color: black;
+}
+
+#container {
+    width:75%;
+    margin:auto;
+    padding: 0 45px 40px 10px;
+    background-color: #000000;
+    border: 10px solid #000000;
+    border-radius:20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
